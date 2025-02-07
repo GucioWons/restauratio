@@ -1,7 +1,7 @@
-package com.guciowons.restauratio.restaurant;
+package com.guciowons.restauratio.restaurant.entity;
 
-import com.guciowons.restauratio.generic.Entity;
-import com.guciowons.restauratio.image.Image;
+import com.guciowons.restauratio.generic.entity.Entity;
+import com.guciowons.restauratio.image.entity.Image;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

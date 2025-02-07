@@ -1,6 +1,6 @@
-package com.guciowons.restauratio.ingredient;
+package com.guciowons.restauratio.ingredient.entity;
 
-import com.guciowons.restauratio.generic.RestaurantEntity;
+import com.guciowons.restauratio.generic.entity.RestaurantEntity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

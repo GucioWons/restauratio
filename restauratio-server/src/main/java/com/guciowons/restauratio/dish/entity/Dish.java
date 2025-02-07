@@ -1,9 +1,9 @@
-package com.guciowons.restauratio.dish;
+package com.guciowons.restauratio.dish.entity;
 
-import com.guciowons.restauratio.category.Category;
-import com.guciowons.restauratio.generic.RestaurantEntity;
-import com.guciowons.restauratio.image.Image;
-import com.guciowons.restauratio.ingredient.Ingredient;
+import com.guciowons.restauratio.category.entity.Category;
+import com.guciowons.restauratio.generic.entity.RestaurantEntity;
+import com.guciowons.restauratio.image.entity.Image;
+import com.guciowons.restauratio.ingredient.entity.Ingredient;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

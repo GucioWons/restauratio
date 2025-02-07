@@ -1,6 +1,5 @@
-package com.guciowons.restauratio.category;
+package com.guciowons.restauratio.ingredient.dto;
 
-import com.guciowons.restauratio.generic.RestaurantEntity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -10,7 +9,7 @@ import java.util.UUID;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Category extends RestaurantEntity {
+public class IngredientDTO {
     private UUID id;
 
     private String name;

@@ -1,4 +1,4 @@
-package com.guciowons.restauratio.generic;
+package com.guciowons.restauratio.generic.entity;
 
 import java.util.UUID;
 
