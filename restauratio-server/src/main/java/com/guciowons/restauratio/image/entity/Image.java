@@ -1,6 +1,6 @@
-package com.guciowons.restauratio.image;
+package com.guciowons.restauratio.image.entity;
 
-import com.guciowons.restauratio.generic.RestaurantEntity;
+import com.guciowons.restauratio.generic.entity.RestaurantEntity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -14,6 +14,4 @@ public class Image extends RestaurantEntity {
     private UUID id;
 
     private byte[] content;
-
-    private String name;
 }
