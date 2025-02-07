@@ -1,5 +1,6 @@
 package com.guciowons.restauratio.restaurant;
 
+import com.guciowons.restauratio.generic.Entity;
 import com.guciowons.restauratio.image.Image;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,7 +11,7 @@ import java.util.UUID;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Restaurant {
+public class Restaurant implements Entity {
     private UUID id;
 
     private String name;

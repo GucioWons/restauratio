@@ -1,13 +1,17 @@
 package com.guciowons.restauratio.table;
 
-import com.guciowons.restauratio.restaurant.Restaurant;
+import com.guciowons.restauratio.generic.RestaurantEntity;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.util.UUID;
 
-public class Table {
+@Getter
+@Setter
+@NoArgsConstructor
+public class Table extends RestaurantEntity {
     private UUID id;
 
     private String name;
-
-    private Restaurant restaurant;
 }
