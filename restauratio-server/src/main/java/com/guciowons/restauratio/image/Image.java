@@ -10,9 +10,9 @@ import java.util.UUID;
 @Setter
 @NoArgsConstructor
 public class Image {
-    UUID id;
+    private UUID id;
 
-    byte[] content;
+    private byte[] content;
 
-    String name;
+    private String name;
 }
